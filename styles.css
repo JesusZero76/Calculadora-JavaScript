@@ -16,7 +16,20 @@ body {
     height: 100vh;
 }
 
+.container{;
+    background-image: url('Imagenes/ShahadatRahman.jpg');
+    background-size: 150%;
+    animation: movimiento 5s infinite linear alternate;
+    max-width: 1921px;
+}
 
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+}
 
 .calculadora {   /* Borde de la clculadora*/
     display: grid;
